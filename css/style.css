@@ -1,37 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
 	padding: 0;
 	margin: 0;
 }
 .container {
-	width: 100%;
+	width: 1600px;
 	height: 100%;
-	top: 0;
-	left: 0;
 	margin:0 auto;
 	position: relative;
 }
 
 .wrapper {
-	width: 1170px;
 	float: left;
-	margin: 0 auto;
     top: 0px;
+    left: 210px;
     z-index: 1000;
 	position: absolute;
+	overflow: hidden;
+	height: 70px;
 }
 
 .header {
 	height: 800px;
-	width: 100%;
 	position: absolute;
 }
 
 .header-slider {
-	width: 100%;
-	height: 100%;
-	
 }
 
 #logo {
+	margin-top: 20px;
+}
 
+#separator-logo {
+	margin-top: 20px;
+	border-left: 1px solid #17526e;
+	height: 7px;
+	bottom: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+	line-height: 10px;
+}
+
+#tag-line {
+	margin-top: 20px;
+	display: inline;
+	color: #787d7f;
+	font-family: Open Sans;
+	font-size: 13px;
+	font-weight: light;
+	position: relative;
+	bottom: 5px;
+}
+
+.navigation	{
+	text-align: right;
+	float: right;
+	position: relative;
+	margin-left: 500px;
+}
+
+.navigation li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 10px;
+	padding-top: 25px;
+}
+
+.navigation li a {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	color: #32b0ee;
+}
+
+.current {
+	border-top: 1px solid #32b0ee;
 }
